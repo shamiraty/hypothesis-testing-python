@@ -122,6 +122,6 @@ with col2:
  a1.metric("SAMPLE SIZE",f"{sample_size:,.0f}")
  a2.metric("COMPUTED VALUE",f"{t_stat:,.3f}")
  a3.metric("CRITICAL VALUE",f"{critical_value:,.3f}")
- style_metric_cards(background_color="#FFFFFF",border_left_color="red",border_color="blue",box_shadow="grey")
+ style_metric_cards(background_color="#FFFFFF",border_left_color="green",border_color="gray",box_shadow="grey")
  st.plotly_chart(fig,use_container_width=True)
 
